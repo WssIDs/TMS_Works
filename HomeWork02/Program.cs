@@ -177,7 +177,7 @@
         /// Сортировка элементов матрицы построчно
         /// </summary>
         /// <param name="matrix">Матрица</param>
-        /// <param name="ascending">по возрастанию</param>
+        /// <param name="ascending">true - по возрастанию, false - по убыванию</param>
         private static void SortRows(this int[,] matrix, bool ascending = true)
         {
             for (var i = 0; i < matrix.GetLength(0); i++)
